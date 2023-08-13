@@ -1,0 +1,37 @@
+.flex{
+     display: flex;
+}
+
+.items-center{
+    align-items:center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn{
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.btn-primary{
+    background: var(--primary);
+    color: var(--secondary);
+    margin-right: 5rem;
+}
+
+.btn-primary:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color:var(--primary);
+}
